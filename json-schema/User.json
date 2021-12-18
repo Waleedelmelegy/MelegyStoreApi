@@ -1,0 +1,51 @@
+[
+    {
+        "_comment": "..user login method",
+        "response": {
+            "status": "200",
+            "data": {
+                "name": "string",
+                "email": "email",
+                "password": "password",
+                "created_at": "TIMESTAMP",
+                "updated_at": "TIMESTAM"
+            },
+            "token": "rand256"
+        }
+    },
+    {
+        "_comment": "..user login details method",
+        "response": {
+            "status": "200",
+            "data": {
+                "name": "string",
+                "email": "email",
+                "password": "password",
+                "created_at": "TIMESTAMP",
+                "updated_at": "TIMESTAM"
+            },
+            "token": "rand256"
+        }
+    },
+    {
+        "_comment": "..user login error code",
+        "response": {
+            "status": "401",
+            "message": "the $email or $password is incorrect"
+        }
+    },
+    {
+        "_comment": "..user register",
+        "response": {
+            "status": "200",
+            "data": {
+                "name": "string",
+                "email": "email",
+                "password": "password",
+                "created_at": "TIMESTAMP",
+                "updated_at": "TIMESTAM"
+            },
+            "token": "rand256"
+        }
+    }
+]
